@@ -1,0 +1,28 @@
+﻿<div>
+    <h1></h1>
+    <form action="Login" id="myLogin" class="form-horizontal" novalidate>
+        <fieldset>
+
+            <legend>Login Page</legend>
+            <div class="form-group">
+                <label class="control-label col-xs-3">UserName:</label><input class="input" type="text" id="UserName" data-ng-model="UserName" />
+            </div>
+
+            <div class="form-group">
+                <label class="control-label col-xs-3">Password:</label><input class="input" type="password" id="Password" data-ng-model="Password" />
+            </div>
+            <div class="form-group">
+                <div class="col-xs-offset-2 col-xs-10">
+
+                    <input type="button" class="btn-primary" data-ng-click="submit(UserName,Password)" value="Submit" />
+                    <input type="button" class="btn-primary" data-ng-click="Logs" value="LOGS" />
+                </div>
+            </div>
+            <div data-ng-hide="DivEnable" class="form-group">
+                <div class="col-xs-offset-2 col-xs-10">
+                    <label>{{alert}}</label>
+                </div>
+        </fieldset>
+
+    </form>
+</div>

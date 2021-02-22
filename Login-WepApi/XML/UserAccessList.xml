@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<USERLIST>
+  <user >
+    <id>user1</id>
+    <pwd>password@01</pwd>
+    <email>user1@gmail.com</email>
+  </user>
+  <user >
+    <id>user2</id>
+    <pwd>password@02</pwd>
+    <email>user2@gmail.com</email>
+  </user>
+  <user >
+    <id>user3</id>
+    <pwd>password@03</pwd>
+    <email>user3@gmail.com</email>
+  </user>
+  </USERLIST>
